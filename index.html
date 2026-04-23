@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sunny King Dogs</title>
+  <title>SUNNY KING DOGS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</header>
+
 
   <style>
     body {
@@ -15,7 +19,7 @@
 
     /* Header */
     header {
-      background-color: #252629;
+      background-color: #171718;
       color: white;
       padding: 40px 20px;
       text-align: center;
@@ -39,7 +43,7 @@
 
     h2 {
       text-align: center;
-      margin-bottom: 5px;
+      margin-bottom: 30px;
       color: #1E3A8A;
     }
 
@@ -87,13 +91,128 @@
       border-radius: 15px;
     }
 
-    .contact p {
+    .title-container {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+        .contact p {
       font-size: 1.1rem;
     }
 
+    .bright-title {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ff0080, #ff8c00, #00c3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+
+.top-contact {
+  background: #111;
+  color: white;
+  font-size: 14px;
+  padding: 8px 40px;
+  display: flex;
+  justify-content: flex-end;   /* Move to right */
+  gap: 25px;
+}
+
+.top-contact span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    background: #111;
+    padding: 10px 40px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Push contact section to right */
+.contact-info {
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
+
+
+/* Left Royal Text */
+.top-left {
+    color: gold;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9800;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.contact-info a,
+.contact-info span {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* WhatsApp Green */
+.whatsapp i {
+    color: #25D366;
+}
+
+/* Hover Effect */
+.contact-info a:hover {
+    color: #ff9800;
+}
+
+.location {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.location:hover {
+    color: #ff5252;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.lion-top {
+    width: 120px;   /* adjust size */
+    margin-top: 10px;
+}
+
+
     /* Footer */
     footer {
-      background-color: #292b2f;
+      background-color: #1E3A8A;
       color: white;
       text-align: center;
       padding: 20px;
@@ -103,116 +222,155 @@
 </head>
 
 <body>
+  <!-- TOP HEADER -->
+<header class="top-header">
+
+  <!-- Left Side Royal Text -->
+    <div class="top-left">
+        👑 Royal Quality Puppies | Certified & Vaccinated
+    </div>
+
+     <!-- Contact Info Right -->
+    <div class="contact-info">
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/916366580077" target="_blank" class="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> 6366580077
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:sudheersunnyking133@gmail.com" class="email">
+            <i class="fa-solid fa-envelope"></i> sudheersunnyking133@gmail.com
+        </a>
+
+        <!-- Location -->
+<a 
+  href="https://www.google.com/maps/search/?api=1&query=Bangalore,India" 
+  target="_blank" 
+  class="location"
+>
+  <i class="fa-solid fa-location-dot"></i> Bangalore, India
+</a>
+
+    </div>
+
+</header>
 
   <!-- Header -->
   <header>
-    <h1>Sunny King Dogs</h1>
+    <h1>SUNNY KING DOGS </h1>
     <p>Where Every Dog Is Raised Like Royalty 👑🐾</p>
   </header>
 
   <!-- About -->
   <section class="about">
-    <h2>About Us</h2>
-    <p>
-      Sunny King Dogs is a trusted dog breeding home dedicated to raising
-      healthy, happy, and well-trained puppies.  
-      We focus on love, care, and quality breeding standards.
-    </p>
+<h3 class="bright-title">All Breed Dogs Are Available</h3>
   </section>
 
   <!-- Dogs -->
   <section>
-    <h2>Our Dogs</h2>
-
-    <div class="dogs">
-      <div class="dog-card">
-        <img src="images/golden-retriever.jpg" alt="Golden Retriever">
-        <h3>Golden Retriever</h3>
-        <p>Friendly & family-loving</p>
-      </div>
-
-      <div class="dog-card">
-        <img src="images/german-shepherd.jpg" alt="German Shepherd">
-        <h3>German Shepherd</h3>
-        <p>Strong & intelligent</p>
-      </div>
-
-      <div class="dog-card">
-          <img src="images/labrador.jpg" alt="Labrador">
-        <h3>Labrador</h3>
-        <p>Playful & loyal</p>
-      </div>
-
-      <div class="dog-card">
-        <img src="images/shihtzu.jpg" alt="Shih Tzu Puppy">
-  <h3>Shih Tzu</h3>
-  <p>Cute & affectionate</p>
-</div>
-
-
+<div class="dogs">
 <div class="dog-card">
-  <img src="images/toy-poodle.jpg" alt="Toy Poodle">
-  <h3>Toy Poodle</h3>
-  <p>Smart & elegant</p>
-</div>
-
-<div class="dog-card">
-  <img src="images/husky.jpg" alt="Husky">
-  <h3>Husky</h3>
-  <p>Energetic & friendly</p>
-</div>
-
-<div class="dog-card">
-  <img src="images/american-bully.jpg" alt="American Bully">
+  <img src="american-bully.jpg" alt="American Bully">
   <h3>American Bully</h3>
   <p>Strong & loyal</p>
 </div>
 
 <div class="dog-card">
-  <img src="images/great-dane.jpg" alt="Great Dane">
-  <h3>Great Dane</h3>
-  <p>Calm & majestic</p>
+  <img src="beagle.jpg" alt="Beagle">
+  <h3>Beagle</h3>
+  <p>Curious & friendly</p>
 </div>
 
 <div class="dog-card">
-  <img src="images/saint-bernard.jpg" alt="Saint Bernard">
-  <h3>Saint Bernard</h3>
-  <p>Gentle & friendly</p>
+  <img src="boxer.jpg" alt="Boxer Dog">
+  <h3>Boxer</h3>
+  <p>Energetic & playful</p>
 </div>
 
 <div class="dog-card">
-  <img src="images/cane-corso.jpg" alt="Cane Corso">
+  <img src="cane-corso.jpg" alt="Cane Corso">
   <h3>Cane Corso</h3>
   <p>Powerful & protective</p>
 </div>
 
 <div class="dog-card">
-  <img src="images/belgian_malinois.jpg" alt="Belgian Malinois">
-  <h3>Belgian Malinois</h3>
-  <p>Alert & intelligent</p>
+  <img src="doberman.jpg" alt="Doberman">
+  <h3>Doberman</h3>
+  <p>Alert & fearless</p>
 </div>
 
 <div class="dog-card">
-  <img src="images/pomeranian.jpg" alt="Pomeranian">
+  <img src="german-shepherd.jpg" alt="German Shepherd">
+  <h3>German Shepherd</h3>
+  <p>Strong & intelligent</p>
+</div>
+
+<div class="dog-card">
+  <img src="golden-retriever.jpg" alt="Golden Retriever">
+  <h3>Golden Retriever</h3>
+  <p>Friendly & family-loving</p>
+</div>
+
+<div class="dog-card">
+  <img src="great-dane.jpg" alt="Great Dane">
+  <h3>Great Dane</h3>
+  <p>Calm & majestic</p>
+</div>
+
+<div class="dog-card">
+  <img src="husky.jpg" alt="Husky">
+  <h3>Husky</h3>
+  <p>Energetic & friendly</p>
+</div>
+
+<div class="dog-card">
+  <img src="labrador.jpg" alt="Labrador">
+  <h3>Labrador</h3>
+  <p>Playful & loyal</p>
+</div>
+
+<div class="dog-card">
+  <img src="pitbull.jpg" alt="Pitbull">
+  <h3>Pitbull</h3>
+  <p>Strong & loyal</p>
+</div>
+
+<div class="dog-card">
+  <img src="pomeranian.jpg" alt="Pomeranian">
   <h3>Pomeranian</h3>
   <p>Fluffy & playful</p>
 </div>
 
- </div>
-  </section>
+<div class="dog-card">
+  <img src="rajapalayam.jpg" alt="Rajapalayam Dog">
+  <h3>Rajapalayam</h3>
+  <p>Loyal & fearless</p>
+</div>
 
-  <!-- Contact -->
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p>📞 Phone: +91 6366580077</p>
-    <p>📧 Email: sudheersunnyking133@gmail.com</p>
-    <p>📍 Location: Nandyal, India</p>
-  </section>
+<div class="dog-card">
+  <img src="rottweiler.jpg" alt="Rottweiler">
+  <h3>Rottweiler</h3>
+  <p>Powerful & protective</p>
+</div>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Sunny King Dogs. All Rights Reserved.</p>
-  </footer>
+<div class="dog-card">
+  <img src="saint-bernard.jpg" alt="Saint Bernard">
+  <h3>Saint Bernard</h3>
+  <p>Gentle & friendly</p>
+</div>
+
+<div class="dog-card">
+  <img src="shihtzu.jpg" alt="Shih Tzu Dog">
+  <h3>Shih Tzu</h3>
+  <p>Cute & affectionate</p>
+</div>
+
+<div class="dog-card">
+  <img src="toy-poodle.jpg" alt="Toy Poodle">
+  <h3>Toy Poodle</h3>
+  <p>Smart & elegant</p>
+</div>
 
 </body>
-</html> 
+</html>
